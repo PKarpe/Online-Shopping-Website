@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  scroll-margin-top: 167.094px;
+}
+
+/* Navbar */
+
+#nav {
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+
+.dropdown-item:active {
+  background-color: lightslategrey;
+}
+
+/* Banner */
+
+.carousel-item img {
+  max-height: 81vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* About us */
+
+.about-image {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about p {
+  text-align: justify;
+}
+
+/* Sign Up */
+
+
+/*Store Cards*/
+.card{
+  transition: all 0.1s;
+}
+
+.card:hover{
+  transform: scale(1.04);
+}
+
+/* Responsive CSS Code */
+
+/* Smallest devices (576px and below)*/
+@media (max-width: 576px) {
+  .sign-up {
+    padding: 0 30px;
+  }
+}
+
+/* Smaller devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Small devices (768px and below)*/
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: 132.25px;
+  }
+
+  /* Navbar */
+
+  .navbar-brand img {
+    width: 120px !important;
+  }
+
+  /* About */
+  .col-12 h1 {
+    align-self: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  section {
+    scroll-margin-top: 188.88px;
+  }
+
+  /* Navbar */
+  .navbar-brand img {
+    width: 250px !important;
+  }
+}
